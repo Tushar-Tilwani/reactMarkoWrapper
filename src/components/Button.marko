@@ -9,10 +9,7 @@ class {
   }
 }
 
-<div>
-  <h3> Marko Button </h3>
-  <button onclick('handleClick') id='marko-btn'>
-      Marko State Counter ${state.counter} |
-      React Input Counter ${input.reactCounter}
-  </button>
-</div>
+<button onclick('handleClick') id='marko-btn'>
+    Marko Button ${state.counter} |
+    Input From Parent ${input.reactCounter}
+</button>

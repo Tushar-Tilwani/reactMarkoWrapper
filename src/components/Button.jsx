@@ -24,7 +24,7 @@ function Button() {
   return (
     <>
       <button className="btn btn-blue" onClick={() => setCounter(counter + 1)}>
-        I am orginal React Counter {counter}
+       React Button {counter}
       </button>
       <div ref={ref}></div>
     </>
