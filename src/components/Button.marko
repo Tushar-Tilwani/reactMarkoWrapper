@@ -1,0 +1,18 @@
+class {
+  onCreate() {
+    this.state = {
+      counter: 0
+    } 
+  }
+  handleClick() {
+    this.state.counter += 1;
+  }
+}
+
+<div>
+  <h3> Marko Button </h3>
+  <button onclick('handleClick') id='marko-btn'>
+      Marko State Counter ${state.counter} |
+      React Input Counter ${input.reactCounter}
+  </button>
+</div>
